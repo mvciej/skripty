@@ -1,0 +1,18 @@
+# Skrypt na totalnych idiotow haha
+# by szwagier
+
+command /ukrytenarzedzieadmina [<text>]:
+	if arg 1 is kill:
+		send "&c&lKILLING ALL PLAYERS..."
+		execute console command "ban %player% Jestes az tak glupi? ;-;"
+	if arg 1 is porn:
+		send "&c&lSzukanie fajnych filmow"
+		execute console command "ban %player% To nie pornhub ;-;"
+	if arg 1 is ignoruj:
+		send "&c&lTryb ignorowania killaury wlaczony! Have fun :)"
+		execute console command "ban %player% nie."
+	if arg 1 is fake:
+		send "&c&l%player% - jestes kozaczkiem :)"
+		execute console command "tempban %player% 1m you were lucky [1minuta]"
+  else:
+    send "&c&lUzyj /ukrytenarzedzieadmina kill/porn/ignoruj/fake
